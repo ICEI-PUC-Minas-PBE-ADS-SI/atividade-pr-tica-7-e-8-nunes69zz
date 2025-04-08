@@ -12,10 +12,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Pedro Nunes Cruz
+- Matricula: 890508
+- Proposta de projeto escolhida: Menu de Receitas
+- Breve descrição sobre seu projeto: Um menu de receitas utilizando de html css e java script com o bootstrap incluido.
 
 ## Print da versão responsiva com CSS puro
 

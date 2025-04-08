@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #f4f4f4 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background: linear-gradient(to bottom, orange, orangered, yellow) !important;
+    box-sizing: border-box !important; 
+    overflow-x: hidden !important; 
+}
+
+header,
+footer {
+    width: 100% !important;
+    text-align: center !important;
+    background-color: #333 !important;
+    color: white !important;
+    padding: 10px 0 !important;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    flex: 1;
+    text-align: left;
+}
+
+header .search-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box; 
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    gap: 20px;
+    box-sizing: border-box; 
+}
+
+main {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+aside {
+    width: 200px;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.teste3 {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.teste3 img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.teste3 p {
+    text-align: justify;
+    margin-top: 0;
+    flex: 1;
+}
+
+.search-form input[type="text"] {
+    padding: 5px !important;
+    font-size: 16px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    width: 100% !important; 
+    box-sizing: border-box !important;
+}
+
+.search-form button {
+    padding: 5px 10px !important;
+    font-size: 16px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    background-color: #007BFF !important;
+    color: white !important;
+    cursor: pointer !important;
+    margin-left: 5px !important;
+}
+
+.search-form button:hover {
+    background-color: #0056b3 !important;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos do Carrossel */
+.carousel {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 20px auto !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.carousel-item {
+    height: 400px !important;
+}
+
+.carousel-item img {
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+.carousel-indicators button {
+    background-color: #007BFF !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin: 0 5px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5% !important;
+    opacity: 0.7 !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1 !important;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px; 
+        box-sizing: border-box; 
+        overflow-x: hidden; 
+    }
+
+    aside {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .teste3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teste3 img {
+        margin: 0 0 10px 0;
+        width: 100%; 
+        max-width: 300px;
+    }
+
+    .carousel-item {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    header .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header .search-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-form input[type="text"], .search-form button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .teste3 img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .main-container {
+        padding: 0 5px; 
+        box-sizing: border-box; 
+        overflow-x: hidden; 
+    }
+
+    main, aside {
+        margin: 0; 
+    }
+
+    .carousel-item {
+        height: 200px !important;
+    }
+    
+    .carousel {
+        margin: 10px auto !important;
+    }
+}
