@@ -15,12 +15,13 @@ Leia o enunciado completo no Canvas.
 - Nome: Pedro Nunes Cruz
 - Matricula: 890508
 - Proposta de projeto escolhida: Menu de Receitas
-- Breve descrição sobre seu projeto: Um menu de receitas utilizando de html css e java script com o bootstrap incluido.
+- Breve descrição sobre seu projeto: Um menu de receitas utilizando de html css e java script com o bootstrap incluido. Utilizei de dois css um para formatação do site em si e o outro para formatação das paginas linkadas ao JavaScript, pegando referência do bootstrap no youtube e nas aulas do Rommel.
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Screenshot 2025-04-08 225852.jpg>) 
+![alt text](<Screenshot 2025-04-08 225904.jpg>)
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Screenshot 2025-04-08 225824.jpg>)

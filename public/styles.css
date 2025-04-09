@@ -132,7 +132,7 @@ aside {
     background-color: #0056b3 !important;
 }
 
-/* Estilos para a página de detalhes */
+
 .receita-detalhes {
     width: 100%;
     padding: 20px;
@@ -194,7 +194,7 @@ aside {
     text-decoration: none;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     .main-container {
         flex-direction: column;
