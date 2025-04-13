@@ -25,3 +25,5 @@ Leia o enunciado completo no Canvas.
 ## Print da versão responsiva com Bootstrap
 
 ![alt text](<Screenshot 2025-04-08 225824.jpg>)
+![alt text](<Imagem do WhatsApp de 2025-04-13 à(s) 01.05.36_ddf61bf8.jpg>)
+![alt text](<Imagem do WhatsApp de 2025-04-13 à(s) 01.07.18_16ba7f2c.jpg>)
